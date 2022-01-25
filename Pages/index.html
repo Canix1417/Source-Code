@@ -4,39 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="../CSS/indexStyles.css">
 
     <title>index</title>
 </head>
 <body>
     <!--<site-header></site-header>-->
-    <div class="container-fluid" style="text-align: center; background-color: lightblue;">
-        <h style="font-size: 40px">Welcome to <b>28:19!</b></h>
-        <p><em>A space for encouraging and giving generously to those looking to reflect Christ, love others, and share the gospel!</em></p>
-        
-        <nav class="navbar navbar-inverse">
+    <div class="container-fluid" id="navigation-bar">       
+        <nav class="navbar navbar-expand-sm sticky-top">
             <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html">28:19</a>
-                </div>
-                <ul class="nav navbar-nav">
-                    <li class="dropdown">
-                        <a class="dropwdown-toggle" data-toggle="dropdown"></a>About Us</li>
-                    <li class="nav-item"><a href="../Pages/For Givers.html">For Givers</a></li>
-                    <li class="nav-item"><a href="../Pages/For Missionaries.html">For Missionaries</a></li>
-                </ul>
-                        
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="Sign In.html">Login</a></li>
-                </ul> 
+                <!--Code for navbar brand-->
+                <a class=navbar-brand href="#">
+                    <img src="../Images/2819 Logo.png">Welcome!
+                </a>
+                <ul class="navbar-nav">
+                    <!--Code for navbar dropdown-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">About Us</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="About Us Pages/Meet Our Team.html">Our Team</a></li>
+                            <li><a class="dropdown-item" href="About Us Pages/Our Story.html">Our Story</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-link"><a href="For Givers.html">For Givers</a></li>
+                    <li class="nav-link"><a href="For Missionaries.html">For Missionaries</a></li>
+                    <li class="nav-link"><a href="#"></a></li>
+                </ul>        
+                <button class="btn btn-primary" type="button">Login</button>
             </div>
         </nav>
     </div>
-    <div class="container-fluid">
-        <h1 style="text-align: center;"><u>How it works</u></h1>
+    <div class="sitebanner">
+        <h style="font-size: 50px">Welcome to <b>28:19</b>!</h>
+    </div>
+
+    <div class="container-fluid page-heading-1">
+        <h1>About 28:19</h1>
+    </div>
+    <div>
+        <p>28:19 is an online space that connects</p>
     </div>
     
+    <div class="container-fluid  page-heading-2">
+        <h1>Featured Content</h1>
+    </div>
+    <div>
+        <p></p>
+    </div>
+
+    <div class="container-fluid  page-heading-1">
+        <h1>Success Stories</h1>
+    </div>
+    <div>
+        <p>At 28:19 we believe in the power of reminding eachother and ourselves of the times God has come through.</p>
+    </div>
+
+    <div class="container-fluid  page-heading-2">
+        <h1>Fringe Fundraisers!</h1>
+    </div>
+    <div>
+        <p>Fringe fundraisers are fundraisers that are right on the fringe of being fully funded!</p>
+    </div>
+
+    <div class="container-fluid" id="navigation-bar">
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <ul  class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">TERMS OF USE</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">PRIVACY POLICY</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">COOKIE POLICY</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">CONTACT US</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
     <script type=module src=../Pages/SiteHeader.js></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
