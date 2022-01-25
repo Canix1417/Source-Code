@@ -1,0 +1,38 @@
+* {
+    font-family:  sans-serif;
+}
+
+a {
+    font-size: large;
+    color: #05386B;
+    text-decoration: none;
+}
+
+h1, p {
+        color: #05386B;
+    }
+
+.dropdown-item {
+    font-size: large;
+}
+
+.sitebanner {
+    text-align: center;
+    background-color: #5CDB95;
+}
+
+.page-heading-1 {
+    background-color:  #8EE4AF;
+    text-align: center;
+}
+
+.page-heading-2 {
+    background-color:  #379683;
+    text-align: center;
+}
+
+#navigation-bar {
+    background-color: #5CDB95;
+}
+
+/*Extra color code for text is #EDF5E1*/

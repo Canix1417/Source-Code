@@ -1,8 +1,0 @@
-.nav-item {
-    display: flex;
-    flex-direction: row;
-}
-
-ul > li {
-    border: 2 px solid black;
-}
