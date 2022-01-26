@@ -8,7 +8,7 @@ class SiteHeader extends HTMLElement{
             <div class="container-fluid">
                 <!--Code for navbar brand-->
                 <a class=navbar-brand href="index.html">
-                    <img src="../Images/2819 Logo.png">Welcome!
+                    <img src="../Images/2819 Logo.png">
                 </a>
                 <ul class="navbar-nav">
                     <!--Code for navbar dropdown-->
