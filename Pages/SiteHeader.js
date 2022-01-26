@@ -23,8 +23,10 @@ class SiteHeader extends HTMLElement{
                     <li class="nav-link"><a href="For Missionaries.html">For Missionaries</a></li>
                     <li class="nav-link"><a href="#"></a></li>
                 </ul>        
+                <div>
                 <button class="btn btn-primary" type="button">Sign In</button>
                 <button class="btn btn-primary" type="button">Register!</button>
+            </div>
             </div>
         </nav>
     </div>`;
