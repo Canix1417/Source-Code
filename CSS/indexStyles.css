@@ -24,11 +24,12 @@ h1, p {
 
 .page-heading-1 {
     background-color:  #8EE4AF;
+    padding-top: 30px;
 }
 
 .page-heading-2 {
     background-color:  #379683;
-    /*padding-top: 50px;*/
+    padding-top: 30px;
 }
 
 .about-heading {
