@@ -33,6 +33,11 @@ h1, p {
     background-color: #5CDB95;
 }
 
+.image-container {
+    display: flex;
+    justify-content: space-around;
+}
+
 .fundraiser-image {
     width: 120px;
     height: 120px;
