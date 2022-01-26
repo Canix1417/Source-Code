@@ -10,6 +10,7 @@ a {
 
 h1, p {
         color: #05386B;
+        margin-bottom: 0px;
     }
 
 .dropdown-item {
@@ -27,6 +28,7 @@ h1, p {
 
 .page-heading-2 {
     background-color:  #379683;
+    /*padding-top: 50px;*/
 }
 
 .about-heading {
