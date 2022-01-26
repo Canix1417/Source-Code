@@ -31,6 +31,10 @@ h1, p {
     text-align: center;
 }
 
+.about-heading {
+    background-color: #5CDB95;
+}
+
 #navigation-bar {
     background-color: #5CDB95;
 }
