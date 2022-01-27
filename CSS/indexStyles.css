@@ -2,9 +2,9 @@
     font-family:  sans-serif;
 }
 
-a {
+.nav-link{
     font-size: large;
-    color: #05386B;
+    color: #EDF5E1;
     text-decoration: none;
 }
 
@@ -21,9 +21,13 @@ p {
     font-size: large;
 }
 
-.sitebanner {
-    text-align: center;
-    background-color: #5CDB95;
+
+#navigation-bar {
+    background-color: #379683;
+}
+
+.top-section {
+    background-color: #379683;
 }
 
 .page-heading-1 {
@@ -32,12 +36,8 @@ p {
 }
 
 .page-heading-2 {
-    background-color:  #379683;
+    background-color:  #5CDB95;
     padding-top: 30px;
-}
-
-.about-heading {
-    background-color: #5CDB95;
 }
 
 .image-container {
@@ -49,10 +49,6 @@ p {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-}
-
-#navigation-bar {
-    background-color: #5CDB95;
 }
 
 /*Extra color code for text is #EDF5E1*/
