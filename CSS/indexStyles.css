@@ -52,5 +52,11 @@ p {
     border-radius: 50%;
 }
 
+.fundraiser-bundle {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
 /*Extra color code for text is #EDF5E1*/
 /* Extra color code #8EE4AF*/
