@@ -44,6 +44,7 @@ p {
 .image-container {
     display: flex;
     justify-content: space-around;
+    padding-top: 30px;
 }
 
 .fundraiser-image {
@@ -53,8 +54,8 @@ p {
 }
 
 .fundraiser-bundle {
-    vertical-align: top;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
