@@ -56,7 +56,7 @@ p {
 .fundraiser-bundle {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
 }
 
 /*Extra color code for text is #EDF5E1*/
