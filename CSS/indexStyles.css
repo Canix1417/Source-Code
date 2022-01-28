@@ -70,5 +70,16 @@ p {
     justify-content: space-around;
 }
 
+.modal-header {
+    background-color: #5CDB95;
+}
+
+#credential-section{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 /*Extra color code for text is #EDF5E1*/
 /* Extra color code #8EE4AF*/
