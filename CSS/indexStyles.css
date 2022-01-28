@@ -2,6 +2,10 @@
     font-family:  sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .nav-link{
     font-size: x-large;
     color: #EDF5E1;
