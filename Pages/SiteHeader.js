@@ -3,7 +3,7 @@ class SiteHeader extends HTMLElement{
         super();
 
         this.innerHTML =  
-        `<div class="container-fluid" id="navigation-bar">       
+        ` <div class="container-fluid" id="navigation-bar">       
         <nav class="navbar navbar-expand-sm stikcy-top">
             <div class="container-fluid">
                 <!--Code for navbar brand-->
@@ -19,13 +19,19 @@ class SiteHeader extends HTMLElement{
                             <li><a class="dropdown-item" href="About Us Pages/Our Story.html">Our Story</a></li>
                         </ul> 
                     </li>-->
-                    <li class="nav-item"><a class="nav-link" href="For Givers.html">For Givers</a></li>
-                    <li class="nav-item"><a class="nav-link" href="For Missionaries.html">For Missionaries</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"></a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">For Givers</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="For Givers.html">Getting Started</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="For Missionaries.html">For Missionaries</a>
+                    </li>
                 </ul>        
                 <div>
                     <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#signInModal">Sign In</button>
-                    <button class="btn btn-primary" type="button">Register</button>
+                    <a href="Register Pages/Register.html"><button class="btn btn-primary" type="button">Register</button></a>
                 </div>
             </div>
         </nav>
