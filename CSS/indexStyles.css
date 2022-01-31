@@ -12,10 +12,19 @@ a {
     text-decoration: none;
 }
 
+#nav-dropdown1:hover .dropdown-menu,
+    #nav-dropdown2:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
 .btn {
     background-color:#379683;
-    border: #EDF5E1;
-    border-width: thin;
+    border: 2px solid #EDF5E1;
+}
+
+#logo {
+    border: 2px solid #EDF5E1;
 }
 
 h1, p {
@@ -33,8 +42,8 @@ p {
 
 
 #navigation-bar {
-    padding-bottom: 90px;
-    background-color: #5CDB95;
+    padding-bottom: 70px;
+    background-color: rgb(92, 219, 149);
 }
 
 .fixed-top {
@@ -72,6 +81,10 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.bottom-nav-container{
+    background-color: #5CDB95;
 }
 
 .bottom-nav {
