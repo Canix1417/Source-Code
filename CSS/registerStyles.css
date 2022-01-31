@@ -2,6 +2,14 @@ body {
     background-color: #5CDB95;
 }
 
+#navigation-bar {
+    padding-bottom: 80px;
+}
+
+.fixed-top {
+    background-color: #5CDB95;
+}
+
 .container-fluid {
     display: flex;
     align-items: center;
