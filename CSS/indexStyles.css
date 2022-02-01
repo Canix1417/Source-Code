@@ -12,6 +12,10 @@ a {
     text-decoration: none;
 }
 
+.nav-link:hover {
+    color: #EDF5E1;
+}
+
 #nav-dropdown1:hover .dropdown-menu,
     #nav-dropdown2:hover .dropdown-menu {
     display: block;
@@ -23,12 +27,18 @@ a {
     border: 2px solid #EDF5E1;
 }
 
+.btn:hover {
+    background-color: #379683;
+    border: 5px solid #EDF5E1;
+    color: #EDF5E1;
+}
+
 #logo {
     border: 2px solid #EDF5E1;
 }
 
 h1, p {
-        color: #05386B;
+        color: #EDF5E1;
         margin-bottom: 0px;
 }
 
@@ -43,7 +53,7 @@ p {
 
 #navigation-bar {
     padding-bottom: 70px;
-    background-color: rgb(92, 219, 149);
+    background-color: #5CDB95;
 }
 
 .fixed-top {
@@ -51,7 +61,7 @@ p {
 }
 
 .top-section {
-    background-color: #5cdb95;
+    background-color: #5CDB95;
 }
 
 .page-heading-1 {
