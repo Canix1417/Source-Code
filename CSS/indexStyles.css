@@ -60,13 +60,19 @@ p {
     background-color: #5CDB95;
 }
 
-.top-section {
-    background-color: #5CDB95;
+.page-style-block1 {
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
-.page-heading-1 {
-    background-color:  #379683;
-    padding-top: 30px;
+.page-style-block1 h1 {
+    color: #5CDB95;
+    padding-bottom: 20px;
+}
+
+.page-style-block1 h4 {
+    color: #EDF5E1;
 }
 
 .page-heading-2 {
