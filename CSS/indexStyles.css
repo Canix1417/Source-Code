@@ -14,6 +14,7 @@ a {
 
 .nav-link:hover {
     color: #EDF5E1;
+    font-size: 160%;
 }
 
 #nav-dropdown1:hover .dropdown-menu,
@@ -23,7 +24,7 @@ a {
 }
 
 .btn {
-    background-color:#379683;
+    background-color: #379683;
     border: 2px solid #EDF5E1;
 }
 
@@ -63,7 +64,7 @@ p {
 .page-style-block1 {
     background-color: black;
     padding-top: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .page-style-block1 h1 {
@@ -75,10 +76,14 @@ p {
     color: #EDF5E1;
 }
 
-.page-heading-2 {
+.page-style-block2 {
     background-color:  #5CDB95;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.page-style-block2 h1 {
+    padding-bottom: 20px;
 }
 
 .image-container {
