@@ -16,16 +16,16 @@ class SiteHeader extends HTMLElement{
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="/Pages/For Givers.html">Getting Started</a></li>
                                 <li><a class="dropdown-item" href="/Pages/Giver Pages/Giving Opportunities.html">Giving Opportunities</a></li>
-                                <li><a class="dropdown-item" href="">FAQs</a></li>
+                                <li><a class="dropdown-item" href="/Pages/Giver Pages/Giving FAQs.html">FAQs</a></li>
                             </ul>
                         </li>
                         <li id="nav-dropdown2" class="nav-item dropdown">
                             <a class="nav-link" href="" data-bs-toggle="dropdown">For Missionaries</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="/Pages/For Missionaries.html">Getting Started</a></li>
-                                <li><a class="dropdown-item" href="">Encouragement</a></li>
-                                <li><a class="dropdown-item" href="">Fundraising Tips</a></li>
-                                <li><a class="dropdown-item" href="">FAQs</a></li>
+                                <li><a class="dropdown-item" href="/Pages/Missionary Pages/Fundraising Encouragement.html">Encouragement</a></li>
+                                <li><a class="dropdown-item" href="/Pages/Missionary Pages/Fundraising Tips.html">Fundraising Tips</a></li>
+                                <li><a class="dropdown-item" href="/Pages/Missionary Pages/Fundraising FAQs.html">FAQs</a></li>
                             </ul>
                         </li>
                     </ul>        
