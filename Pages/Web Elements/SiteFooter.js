@@ -3,7 +3,7 @@ class SiteFooter extends HTMLElement{
         super();
 
         this.innerHTML = 
-        ` <div class="container-fluid" id="navigation-bar">
+        ` <div class="container-fluid" id="bottom-navigation-bar">
         <nav class="navbar navbar-expand-sm">
             <div class="container-fluid">
                 <ul  class="navbar-nav">

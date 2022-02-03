@@ -35,7 +35,10 @@ class SiteHeader extends HTMLElement{
                     </div>
                 </div>
             </nav>
-        </div>`;
+        </div>
+
+        <sign-in-modal></sign-in-modal>
+        <script type=module src="/Pages/Web Elements/SignInModal.js"></script>`;
     }
 
 
