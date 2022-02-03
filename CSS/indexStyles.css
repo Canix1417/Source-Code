@@ -56,13 +56,16 @@ p {
     font-size: large;
 }
 
+.fixed-top {
+    background-color: #5CDB95;
+}
 
 #navigation-bar {
     padding-bottom: 70px;
     background-color: #5CDB95;
 }
 
-.fixed-top {
+#bottom-navigation-bar {
     background-color: #5CDB95;
 }
 
